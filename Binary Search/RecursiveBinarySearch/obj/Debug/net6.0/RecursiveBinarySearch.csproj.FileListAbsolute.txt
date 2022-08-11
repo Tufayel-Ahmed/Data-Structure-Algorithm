@@ -1,0 +1,15 @@
+G:\Data Structure & Algorithm\Binary Search\RecursiveBinarySearch\bin\Debug\net6.0\RecursiveBinarySearch.exe
+G:\Data Structure & Algorithm\Binary Search\RecursiveBinarySearch\bin\Debug\net6.0\RecursiveBinarySearch.deps.json
+G:\Data Structure & Algorithm\Binary Search\RecursiveBinarySearch\bin\Debug\net6.0\RecursiveBinarySearch.runtimeconfig.json
+G:\Data Structure & Algorithm\Binary Search\RecursiveBinarySearch\bin\Debug\net6.0\RecursiveBinarySearch.dll
+G:\Data Structure & Algorithm\Binary Search\RecursiveBinarySearch\bin\Debug\net6.0\RecursiveBinarySearch.pdb
+G:\Data Structure & Algorithm\Binary Search\RecursiveBinarySearch\obj\Debug\net6.0\RecursiveBinarySearch.csproj.AssemblyReference.cache
+G:\Data Structure & Algorithm\Binary Search\RecursiveBinarySearch\obj\Debug\net6.0\RecursiveBinarySearch.GeneratedMSBuildEditorConfig.editorconfig
+G:\Data Structure & Algorithm\Binary Search\RecursiveBinarySearch\obj\Debug\net6.0\RecursiveBinarySearch.AssemblyInfoInputs.cache
+G:\Data Structure & Algorithm\Binary Search\RecursiveBinarySearch\obj\Debug\net6.0\RecursiveBinarySearch.AssemblyInfo.cs
+G:\Data Structure & Algorithm\Binary Search\RecursiveBinarySearch\obj\Debug\net6.0\RecursiveBinarySearch.csproj.CoreCompileInputs.cache
+G:\Data Structure & Algorithm\Binary Search\RecursiveBinarySearch\obj\Debug\net6.0\RecursiveBinarySearch.dll
+G:\Data Structure & Algorithm\Binary Search\RecursiveBinarySearch\obj\Debug\net6.0\refint\RecursiveBinarySearch.dll
+G:\Data Structure & Algorithm\Binary Search\RecursiveBinarySearch\obj\Debug\net6.0\RecursiveBinarySearch.pdb
+G:\Data Structure & Algorithm\Binary Search\RecursiveBinarySearch\obj\Debug\net6.0\RecursiveBinarySearch.genruntimeconfig.cache
+G:\Data Structure & Algorithm\Binary Search\RecursiveBinarySearch\obj\Debug\net6.0\ref\RecursiveBinarySearch.dll

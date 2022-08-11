@@ -1,0 +1,15 @@
+G:\Data Structure & Algorithm\Linear Search\LinearSearch\bin\Debug\net6.0\LinearSearch.exe
+G:\Data Structure & Algorithm\Linear Search\LinearSearch\bin\Debug\net6.0\LinearSearch.deps.json
+G:\Data Structure & Algorithm\Linear Search\LinearSearch\bin\Debug\net6.0\LinearSearch.runtimeconfig.json
+G:\Data Structure & Algorithm\Linear Search\LinearSearch\bin\Debug\net6.0\LinearSearch.dll
+G:\Data Structure & Algorithm\Linear Search\LinearSearch\bin\Debug\net6.0\LinearSearch.pdb
+G:\Data Structure & Algorithm\Linear Search\LinearSearch\obj\Debug\net6.0\LinearSearch.csproj.AssemblyReference.cache
+G:\Data Structure & Algorithm\Linear Search\LinearSearch\obj\Debug\net6.0\LinearSearch.GeneratedMSBuildEditorConfig.editorconfig
+G:\Data Structure & Algorithm\Linear Search\LinearSearch\obj\Debug\net6.0\LinearSearch.AssemblyInfoInputs.cache
+G:\Data Structure & Algorithm\Linear Search\LinearSearch\obj\Debug\net6.0\LinearSearch.AssemblyInfo.cs
+G:\Data Structure & Algorithm\Linear Search\LinearSearch\obj\Debug\net6.0\LinearSearch.csproj.CoreCompileInputs.cache
+G:\Data Structure & Algorithm\Linear Search\LinearSearch\obj\Debug\net6.0\LinearSearch.dll
+G:\Data Structure & Algorithm\Linear Search\LinearSearch\obj\Debug\net6.0\refint\LinearSearch.dll
+G:\Data Structure & Algorithm\Linear Search\LinearSearch\obj\Debug\net6.0\LinearSearch.pdb
+G:\Data Structure & Algorithm\Linear Search\LinearSearch\obj\Debug\net6.0\LinearSearch.genruntimeconfig.cache
+G:\Data Structure & Algorithm\Linear Search\LinearSearch\obj\Debug\net6.0\ref\LinearSearch.dll

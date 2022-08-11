@@ -1,0 +1,15 @@
+G:\Data Structure & Algorithm\Selection Sort\SelectionSort\bin\Debug\net6.0\SelectionSort.exe
+G:\Data Structure & Algorithm\Selection Sort\SelectionSort\bin\Debug\net6.0\SelectionSort.deps.json
+G:\Data Structure & Algorithm\Selection Sort\SelectionSort\bin\Debug\net6.0\SelectionSort.runtimeconfig.json
+G:\Data Structure & Algorithm\Selection Sort\SelectionSort\bin\Debug\net6.0\SelectionSort.dll
+G:\Data Structure & Algorithm\Selection Sort\SelectionSort\bin\Debug\net6.0\SelectionSort.pdb
+G:\Data Structure & Algorithm\Selection Sort\SelectionSort\obj\Debug\net6.0\SelectionSort.csproj.AssemblyReference.cache
+G:\Data Structure & Algorithm\Selection Sort\SelectionSort\obj\Debug\net6.0\SelectionSort.GeneratedMSBuildEditorConfig.editorconfig
+G:\Data Structure & Algorithm\Selection Sort\SelectionSort\obj\Debug\net6.0\SelectionSort.AssemblyInfoInputs.cache
+G:\Data Structure & Algorithm\Selection Sort\SelectionSort\obj\Debug\net6.0\SelectionSort.AssemblyInfo.cs
+G:\Data Structure & Algorithm\Selection Sort\SelectionSort\obj\Debug\net6.0\SelectionSort.csproj.CoreCompileInputs.cache
+G:\Data Structure & Algorithm\Selection Sort\SelectionSort\obj\Debug\net6.0\SelectionSort.dll
+G:\Data Structure & Algorithm\Selection Sort\SelectionSort\obj\Debug\net6.0\refint\SelectionSort.dll
+G:\Data Structure & Algorithm\Selection Sort\SelectionSort\obj\Debug\net6.0\SelectionSort.pdb
+G:\Data Structure & Algorithm\Selection Sort\SelectionSort\obj\Debug\net6.0\SelectionSort.genruntimeconfig.cache
+G:\Data Structure & Algorithm\Selection Sort\SelectionSort\obj\Debug\net6.0\ref\SelectionSort.dll
