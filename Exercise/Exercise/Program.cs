@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Concurrent;
 using System.Globalization;
 
 namespace Exercise
@@ -55,6 +56,11 @@ namespace Exercise
             //----------Merge Sort----------
             MergeSort(array, 0, array.Length - 1);
             Console.WriteLine("----------Merge Sort----------");
+            Console.WriteLine(string.Join(", ", array));
+
+            //----------Quick Sort----------
+            QuickSort(array, 0, array.Length - 1);
+            Console.WriteLine("----------Quick Sort----------");
             Console.WriteLine(string.Join(", ", array));
 
         }
@@ -208,6 +214,39 @@ namespace Exercise
                 arrayIndex++;
                 rightIndex++;
             }
+        }
+
+        public static void QuickSort(int[] array, int left, int right)
+        {
+            if(left >= right)
+            {
+                return;
+            }
+            int p = Partition(array, left, right);
+            QuickSort(array, left, p - 1);
+            QuickSort(array, p + 1, right);
+
+        }
+        public static int Partition(int[] array, int left, int right)
+        {
+            int pivot = array[right];
+            int i = left - 1;
+            int temp;
+            for(int j = 0; j <= right; j++)
+            {
+                if (array[j] < pivot)
+                {
+                    i++;
+                    temp = array[j];
+                    array[j] = array[i];
+                    array[i] = temp;
+
+                }
+            }
+            temp = array[right];
+            array[right] = array[i + 1];
+            array[i + 1] = temp;
+            return i + 1;
         }
     }
 }
