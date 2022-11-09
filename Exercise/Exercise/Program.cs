@@ -11,11 +11,27 @@ namespace Exercise
             int resutlt = LinearSearch(array, target);
             if (resutlt == -1)
             {
-                Console.WriteLine("Number is not found");
+                Console.WriteLine("----------Linear Search----------");
+                Console.WriteLine($"{target} is not found");
             }
             else
             {
-                Console.WriteLine($"Number is found in index: {resutlt}");
+                Console.WriteLine("----------Linear Search----------");
+                Console.WriteLine($"{target} is found in index: {resutlt}");
+            }
+
+            int[] array2 = new int[10] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+            int target2 = 10;
+            int resutlt2 = BinarySearch(array2, target2);
+            if (resutlt2 == -1)
+            {
+                Console.WriteLine("----------Binary Search----------");
+                Console.WriteLine($"{target2} is not found");
+            }
+            else
+            {
+                Console.WriteLine("----------Binary Search----------");
+                Console.WriteLine($"{target2} is found in index: {resutlt2}");
             }
         }
 
@@ -27,6 +43,29 @@ namespace Exercise
                 {
 
                     return i;
+                }
+            }
+            return -1;
+        }
+
+        public static int BinarySearch(int[] array, int target)
+        {
+            int left = 0;
+            int right = array.Length - 1;
+            while(left <= right)
+            {
+                int mid = left + (right - left) / 2;
+                if(array[mid] == target)
+                {
+                    return mid;
+                }
+                if(array[mid] < target)
+                {
+                    left = mid + 1;
+                }
+                else
+                {
+                    right = mid - 1;
                 }
             }
             return -1;
