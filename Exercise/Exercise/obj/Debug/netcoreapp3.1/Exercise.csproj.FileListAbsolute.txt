@@ -1,0 +1,14 @@
+G:\Data-Structure-Algorithm\Exercise\Exercise\bin\Debug\netcoreapp3.1\Exercise.exe
+G:\Data-Structure-Algorithm\Exercise\Exercise\bin\Debug\netcoreapp3.1\Exercise.deps.json
+G:\Data-Structure-Algorithm\Exercise\Exercise\bin\Debug\netcoreapp3.1\Exercise.runtimeconfig.json
+G:\Data-Structure-Algorithm\Exercise\Exercise\bin\Debug\netcoreapp3.1\Exercise.runtimeconfig.dev.json
+G:\Data-Structure-Algorithm\Exercise\Exercise\bin\Debug\netcoreapp3.1\Exercise.dll
+G:\Data-Structure-Algorithm\Exercise\Exercise\bin\Debug\netcoreapp3.1\Exercise.pdb
+G:\Data-Structure-Algorithm\Exercise\Exercise\obj\Debug\netcoreapp3.1\Exercise.csproj.AssemblyReference.cache
+G:\Data-Structure-Algorithm\Exercise\Exercise\obj\Debug\netcoreapp3.1\Exercise.GeneratedMSBuildEditorConfig.editorconfig
+G:\Data-Structure-Algorithm\Exercise\Exercise\obj\Debug\netcoreapp3.1\Exercise.AssemblyInfoInputs.cache
+G:\Data-Structure-Algorithm\Exercise\Exercise\obj\Debug\netcoreapp3.1\Exercise.AssemblyInfo.cs
+G:\Data-Structure-Algorithm\Exercise\Exercise\obj\Debug\netcoreapp3.1\Exercise.csproj.CoreCompileInputs.cache
+G:\Data-Structure-Algorithm\Exercise\Exercise\obj\Debug\netcoreapp3.1\Exercise.dll
+G:\Data-Structure-Algorithm\Exercise\Exercise\obj\Debug\netcoreapp3.1\Exercise.pdb
+G:\Data-Structure-Algorithm\Exercise\Exercise\obj\Debug\netcoreapp3.1\Exercise.genruntimeconfig.cache
