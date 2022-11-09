@@ -52,9 +52,14 @@ namespace Exercise
             Console.WriteLine("----------Insertion Sort----------");
             Console.WriteLine(string.Join(", ", resutlt5));
 
+            //----------Merge Sort----------
+            MergeSort(array, 0, array.Length - 1);
+            Console.WriteLine("----------Merge Sort----------");
+            Console.WriteLine(string.Join(", ", array));
+
         }
 
-        public static int LinearSearch(int[] array, int target)
+       public static int LinearSearch(int[] array, int target)
         {
             for (int i = 0; i < array.Length; i++)
             {
@@ -144,6 +149,65 @@ namespace Exercise
                 array[j + 1] = item;
             }
             return array;
+        }
+
+        public static void MergeSort(int[] array, int left, int right)
+        {
+            if(left >= right)
+            {
+                return;
+            }
+            int mid = left + (right - left) / 2;
+
+            MergeSort(array, left, mid);
+            MergeSort(array, mid + 1, right);
+            Merge(array, left, mid, right);
+        }
+        public static void Merge(int[] array, int left, int mid, int right)
+        {
+            int leftArraySize = mid - left + 1;
+            int rightArraySize = right - mid;
+
+            int[] leftArray = new int[leftArraySize];
+            int[] rightArray = new int[rightArraySize];
+
+            for(int i = 0; i < leftArraySize; i++)
+            {
+                leftArray[i] = array[left + i];
+            }
+            for (int i = 0; i < rightArraySize; i++)
+            {
+                rightArray[i] = array[mid + 1 + i];
+            }
+            int arrayIndex;
+            int leftIndex = 0;
+            int rightIndex = 0;
+
+            for(arrayIndex = left; leftIndex < leftArraySize && rightIndex < rightArraySize; arrayIndex++)
+            {
+                if(leftArray[leftIndex] < rightArray[rightIndex])
+                {
+                    array[arrayIndex] = leftArray[leftIndex];
+                    leftIndex++;
+                }
+                else
+                {
+                    array[arrayIndex] = rightArray[rightIndex];
+                    rightIndex++;
+                }
+            }
+            while(leftIndex < leftArraySize)
+            {
+                array[arrayIndex] = leftArray[leftIndex];
+                arrayIndex++;
+                leftIndex++;
+            }
+            while(rightIndex < rightArraySize)
+            {
+                array[arrayIndex] = rightArray[rightIndex];
+                arrayIndex++;
+                rightIndex++;
+            }
         }
     }
 }
