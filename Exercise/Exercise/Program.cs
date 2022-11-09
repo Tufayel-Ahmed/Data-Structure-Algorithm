@@ -6,6 +6,7 @@ namespace Exercise
     {
         static void Main(string[] args)
         {
+            //----------Linear Search----------
             int[] array = new int[10] { 10, 8, 6, 2, 4, 9, 7, 1, 3, 5 };
             int target = 4;
             int resutlt = LinearSearch(array, target);
@@ -20,6 +21,7 @@ namespace Exercise
                 Console.WriteLine($"{target} is found in index: {resutlt}");
             }
 
+            //----------Binary Search----------
             int[] array2 = new int[10] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
             int target2 = 10;
             int resutlt2 = BinarySearch(array2, target2);
@@ -33,6 +35,13 @@ namespace Exercise
                 Console.WriteLine("----------Binary Search----------");
                 Console.WriteLine($"{target2} is found in index: {resutlt2}");
             }
+
+            //----------Bubble Sort----------
+            int[] array3 = new int[10] { 10, 8, 6, 2, 4, 9, 7, 1, 3, 5 };
+            int[] resutlt3 = BubbleSort(array3);
+            Console.WriteLine("----------Bubble Sort----------");
+            Console.WriteLine(string.Join(", ", resutlt3));
+
         }
 
         public static int LinearSearch(int[] array, int target)
@@ -69,6 +78,23 @@ namespace Exercise
                 }
             }
             return -1;
+        }
+
+        public static int[] BubbleSort(int[] array)
+        {
+            for(int i = 0; i < array.Length - 1; i++)
+            {
+                for(int j = 0; j < array.Length - 1 -i; j++)
+                {
+                    if (array[j] > array[j + 1])
+                    {
+                        int temp = array[j];
+                        array[j] = array[j + 1];
+                        array[j + 1] = temp;
+                    }
+                }
+            }
+            return array;
         }
     }
 }
