@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace Exercise
 {
@@ -41,6 +42,12 @@ namespace Exercise
             int[] resutlt3 = BubbleSort(array3);
             Console.WriteLine("----------Bubble Sort----------");
             Console.WriteLine(string.Join(", ", resutlt3));
+
+            //----------Selection Sort----------
+            int[] array4 = new int[10] { 10, 8, 6, 2, 4, 9, 7, 1, 3, 5 };
+            int[] resutlt4 = SelectionSort(array3);
+            Console.WriteLine("----------Selection Sort----------");
+            Console.WriteLine(string.Join(", ", resutlt4));
 
         }
 
@@ -92,6 +99,28 @@ namespace Exercise
                         array[j] = array[j + 1];
                         array[j + 1] = temp;
                     }
+                }
+            }
+            return array;
+        }
+
+        public static int[] SelectionSort(int[] array)
+        {
+            for(int i = 0; i < array.Length; i++)
+            {
+                int minIndex = i;
+                for(int j = i + 1; j < array.Length; j++)
+                {
+                    if(array[j] < array[minIndex])
+                    {
+                        minIndex = j;
+                    }
+                }
+                if(i != minIndex)
+                {
+                    int temp = array[i];
+                    array[i] = array[minIndex];
+                    array[minIndex] = temp;
                 }
             }
             return array;
