@@ -4,7 +4,7 @@ using System.Globalization;
 
 namespace Exercise
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
@@ -62,6 +62,25 @@ namespace Exercise
             QuickSort(array, 0, array.Length - 1);
             Console.WriteLine("----------Quick Sort----------");
             Console.WriteLine(string.Join(", ", array));
+
+            //----------Stack----------
+            Console.WriteLine("----------Stack----------");
+            Stack stack = new Stack(10);
+            stack.Push(10);
+            stack.Push(20);
+            stack.Push(30);
+            stack.Push(40);
+            stack.Push(50);
+            stack.Push(60);
+            stack.Push(70);
+            stack.Push(80);
+            stack.Push(90);
+            stack.Push(100);
+            stack.PritStack();
+
+            stack.Pop();
+            stack.Pop();
+            stack.PritStack();
 
         }
 
