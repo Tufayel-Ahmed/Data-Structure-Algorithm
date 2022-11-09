@@ -82,6 +82,25 @@ namespace Exercise
             stack.Pop();
             stack.PritStack();
 
+            //----------Queue----------
+            Console.WriteLine("----------Queue----------");
+            Queue queue = new Queue(10);
+            queue.Enqueue(10);
+            queue.Enqueue(20);
+            queue.Enqueue(30);
+            queue.Enqueue(40);
+            queue.Enqueue(50);
+            queue.Enqueue(60);
+            queue.Enqueue(70);
+            queue.Enqueue(80);
+            queue.Enqueue(90);
+            queue.Enqueue(100);
+            queue.PrintQueue();
+
+            queue.Dequeue();
+            queue.Dequeue();
+            queue.PrintQueue();
+
         }
 
        public static int LinearSearch(int[] array, int target)
