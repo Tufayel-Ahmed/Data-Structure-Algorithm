@@ -38,16 +38,19 @@ namespace Exercise
             }
 
             //----------Bubble Sort----------
-            int[] array3 = new int[10] { 10, 8, 6, 2, 4, 9, 7, 1, 3, 5 };
-            int[] resutlt3 = BubbleSort(array3);
+            int[] resutlt3 = BubbleSort(array);
             Console.WriteLine("----------Bubble Sort----------");
             Console.WriteLine(string.Join(", ", resutlt3));
 
             //----------Selection Sort----------
-            int[] array4 = new int[10] { 10, 8, 6, 2, 4, 9, 7, 1, 3, 5 };
-            int[] resutlt4 = SelectionSort(array3);
+            int[] resutlt4 = SelectionSort(array);
             Console.WriteLine("----------Selection Sort----------");
             Console.WriteLine(string.Join(", ", resutlt4));
+
+            //----------Insertion Sort----------
+            int[] resutlt5 = InsertionSort(array);
+            Console.WriteLine("----------Insertion Sort----------");
+            Console.WriteLine(string.Join(", ", resutlt5));
 
         }
 
@@ -122,6 +125,23 @@ namespace Exercise
                     array[i] = array[minIndex];
                     array[minIndex] = temp;
                 }
+            }
+            return array;
+        }
+
+        public static int[] InsertionSort(int[] array)
+        {
+            int i, j, item;
+            for(i = 1; i < array.Length; i++)
+            {
+                item = array[i];
+                j = i - 1;
+                while(j >= 0 && array[j] > item)
+                {
+                    array[j + 1] = array[j];
+                    j--;
+                }
+                array[j + 1] = item;
             }
             return array;
         }
